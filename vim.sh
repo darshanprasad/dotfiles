@@ -1,5 +1,5 @@
 #!/bin/bash
-# Written by Darshan Prasad
+# Reference: https://github.com/cboddy/dot-files/blob/master/vim.sh
 # Installs .vimrc and plugins
 
 # Vim
