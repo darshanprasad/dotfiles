@@ -28,7 +28,6 @@ let NERDTreeShowHidden = 1
 
 set expandtab
 set number		" line numbers
-set paste
 set tabstop=2		" expand tabs
 set shiftwidth=2
 set softtabstop=2
