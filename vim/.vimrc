@@ -28,6 +28,7 @@ let NERDTreeShowHidden = 1
 
 set expandtab
 set number		" line numbers
+set backspace=indent,eol,start " make backspace work like most other programs
 set tabstop=2		" expand tabs
 set shiftwidth=2
 set softtabstop=2
