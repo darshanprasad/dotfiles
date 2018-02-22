@@ -34,6 +34,8 @@ set shiftwidth=2
 set softtabstop=2
 set t_Co=256
 set autoindent
+set incsearch
+set hlsearch
 set noswapfile
 syntax on		" syntax highlighting
 
