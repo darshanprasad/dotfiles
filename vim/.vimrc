@@ -40,6 +40,7 @@ set autoindent
 set incsearch
 set hlsearch
 set noswapfile
+set mouse=a
 
 " Config vim-airline with Powerline fonts
 " and set vim-airline theme.
