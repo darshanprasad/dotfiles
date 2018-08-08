@@ -23,11 +23,21 @@ Plugin 'mxw/vim-jsx'
 call vundle#end()	" required
 filetype plugin indent on " required
 
+" NERDTree Plugin Setup
 let mapleader = ',' " leader key
 
 noremap <Leader>n :NERDTreeToggle<CR>
 let NERDTreeChDirMode = 2
 let NERDTreeShowHidden = 1
+
+" ctrlp Plugin Setup
+" Ignore searching through system files and dependencies
+" Set up ctrlp to start from current working directory
+let g:ctrlp_custom_ignore = {
+  \ 'dir': '\.git$\|node_modules',
+  \ 'file': '\.exe$\|\.so$\|\.DS_Store'
+  \ }
+let g:ctrlp_cmd = 'CtrlPCurWD'
 
 set expandtab
 set number		" line numbers
