@@ -52,6 +52,9 @@ set hlsearch
 set noswapfile
 set mouse=a
 
+" Remove highlight on enter (hlsearch)
+nnoremap <CR> :nohlsearch<CR>
+
 " Config vim-airline with Powerline fonts
 " and set vim-airline theme.
 " More info on getting Powerline fonts locally:
