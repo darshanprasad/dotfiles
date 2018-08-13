@@ -90,6 +90,8 @@ let g:airline_symbols.linenr = ''
 
 let g:airline_theme='powerlineish'
 
+" Automatically remove trailing whitespace on save
+autocmd BufWritePre * %s/\s\+$//e
 
 " Settings for syntastic plugin (linter)
 set statusline+=%#warningmsg#
