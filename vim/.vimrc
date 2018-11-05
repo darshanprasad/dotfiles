@@ -42,6 +42,7 @@ let g:ctrlp_cmd = 'CtrlPCurWD'
 set expandtab
 set number		" line numbers
 set backspace=indent,eol,start " make backspace work like most other programs
+set colorcolumn=80
 set tabstop=2		" expand tabs
 set shiftwidth=2
 set softtabstop=2
