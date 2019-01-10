@@ -51,7 +51,6 @@ set autoindent
 set incsearch
 set hlsearch
 set noswapfile
-set mouse=a
 
 " Remove highlight on enter (hlsearch)
 nnoremap <CR> :nohlsearch<CR>
