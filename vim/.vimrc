@@ -43,9 +43,9 @@ set expandtab
 set number		" line numbers
 set backspace=indent,eol,start " make backspace work like most other programs
 set colorcolumn=80
-set tabstop=2		" expand tabs
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4		" expand tabs
+set shiftwidth=4
+set softtabstop=4
 set t_Co=256
 set autoindent
 set incsearch
