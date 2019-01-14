@@ -42,7 +42,6 @@ let g:ctrlp_cmd = 'CtrlPCurWD'
 set expandtab
 set number		" line numbers
 set backspace=indent,eol,start " make backspace work like most other programs
-set colorcolumn=80
 set tabstop=4		" expand tabs
 set shiftwidth=4
 set softtabstop=4
@@ -92,6 +91,10 @@ let g:airline_theme='powerlineish'
 
 " Automatically remove trailing whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
+
+" Automatically wrap text at appropriate column width
+set textwidth=80
+autocmd BufRead,BufNewFile *.java setlocal textwidth=120
 
 " Settings for syntastic plugin (linter)
 set statusline+=%#warningmsg#
