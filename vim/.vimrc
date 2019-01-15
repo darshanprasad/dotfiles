@@ -29,6 +29,7 @@ let mapleader = ',' " leader key
 noremap <Leader>n :NERDTreeToggle<CR>
 let NERDTreeChDirMode = 2
 let NERDTreeShowHidden = 1
+let g:NERDTreeNodeDelimiter = "\u00a0"
 
 " ctrlp Plugin Setup
 " Ignore searching through system files and dependencies
