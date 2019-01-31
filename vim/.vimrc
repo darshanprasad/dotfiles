@@ -11,8 +11,6 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-syntastic/syntastic'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'kien/ctrlp.vim'
 Plugin 'kchmck/vim-coffee-script'
@@ -54,18 +52,6 @@ set noswapfile
 
 " Remove highlight on enter (hlsearch)
 nnoremap <CR> :nohlsearch<CR>
-
-" Config vim-airline with Powerline fonts
-" and set vim-airline theme.
-" More info on getting Powerline fonts locally:
-" https://powerline.readthedocs.io/en/master/installation.html#patched-fonts
-" For Mac, font is: Meslo LG S DZ Regular for Powerline 13pt.
-let g:airline_powerline_fonts = 1
-if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
-endif
-
-let g:airline_theme='powerlineish'
 
 " Automatically remove trailing whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
