@@ -56,10 +56,6 @@ nnoremap <CR> :nohlsearch<CR>
 " Automatically remove trailing whitespace on save
 autocmd BufWritePre * %s/\s\+$//e
 
-" Automatically wrap text at appropriate column width
-set textwidth=80
-autocmd BufRead,BufNewFile *.java setlocal textwidth=120
-
 " Settings for syntastic plugin (linter)
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
